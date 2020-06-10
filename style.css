@@ -70,7 +70,7 @@ a {
     font-size: .8em;
     text-align: center;
     background-color: rgb(252, 140, 99);
-    margin: 1.5em 0;
+    margin: 1.5em 0 0 0;
 }
 
 @media all and (min-width:1045px) {
@@ -80,6 +80,10 @@ a {
         visibility: hidden;
     }
 
+    .main__conteiner {
+        max-width: 1300px;
+        margin: auto;
+    }
 }
 
 @media (max-width:1046px) and (min-width:350px) {
