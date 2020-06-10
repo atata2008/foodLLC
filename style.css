@@ -3,7 +3,9 @@ body {
     flex-direction: column;
     color: rgb(59, 48, 48);
     margin: 0;
-    font-size: 26px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 350px;
 }
 
 * {
@@ -27,12 +29,12 @@ body {
 
 a {
     color: inherit;
-   }
+}
 
 .nav__menu-item {
     display: inline-block;
     margin-right: 50px;
-    font-size: 40px;
+    font-size: 18px;
     font-weight: lighter;
 
 }
@@ -41,6 +43,7 @@ a {
     flex: 1;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around ;
 }
 
 .main__h2 {
@@ -51,15 +54,16 @@ a {
     margin: 0 0 15px 0;
     background-color: rgb(247, 144, 107);
     height: auto;
-    width: 600px;
-    margin: 10px auto;
+    width: 340px;
+    margin: 15px 5px;
     padding: 15px 15px;
     border-radius: 25px;
-    box-shadow: 10px 5px rgb(43, 35, 22);
+    box-shadow: 7px 3px rgb(43, 35, 22);
 }
 
 .block__h3 {
     text-align: center;
+    justify-content: space-around ;
 }
 
 .footer {
@@ -69,16 +73,20 @@ a {
     margin: 1.5em 0;
 }
 
-@media all and (min-width:1230px) {
-    .nav__menu-item, .block-link {
-     visibility: hidden;
- }
- 
- }
+@media all and (min-width:1045px) {
 
-@media (max-width:1229px) and (min-width:50px) {
-   .nav__menu-item, .block-link {
-       visibility: visible;
-    display: block;
+    .nav__menu-item,
+    .block-link {
+        visibility: hidden;
+    }
+
 }
+
+@media (max-width:1046px) and (min-width:350px) {
+
+    .nav__menu-item,
+    .block-link {
+        visibility: visible;
+        display: block;
+    }
 }
