@@ -43,7 +43,7 @@ a {
     flex: 1;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around ;
+    justify-content: space-around;
 }
 
 .main__h2 {
@@ -63,7 +63,7 @@ a {
 
 .block__h3 {
     text-align: center;
-    justify-content: space-around ;
+    justify-content: space-around;
 }
 
 .footer {
