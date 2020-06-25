@@ -16,16 +16,13 @@ body {
 .header {
     background-color: rgb(253, 156, 121);
     border-bottom: 5px solid rgb(36, 34, 37);
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__h1 {
     padding-left: 50px;
     font-size: 1.8em;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
 }
 
 a {
@@ -45,7 +42,7 @@ a {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    }
+}
 
 .main__h2 {
     text-align: center;
